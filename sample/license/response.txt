@@ -1,0 +1,43 @@
+fromListN
+  5
+  [ License
+      { feature = "Premium Partner"
+      , description = "Premium Partner"
+      , serial = "012001034233"
+      , issued = Day { getDay = 58737 }
+      , expires = Day { getDay = 59833 }
+      , expired = False
+      }
+  , License
+      { feature = "PAN-DB URL Filtering"
+      , description = "Palo Alto Networks URL Filtering License"
+      , serial = "012001034233"
+      , issued = Day { getDay = 58737 }
+      , expires = Day { getDay = 59833 }
+      , expired = False
+      }
+  , License
+      { feature = "AutoFocus Device License"
+      , description = "AutoFocus Device License"
+      , serial = "012001034233"
+      , issued = Day { getDay = 58737 }
+      , expires = Day { getDay = 58828 }
+      , expired = True
+      }
+  , License
+      { feature = "Threat Prevention"
+      , description = "Threat Prevention"
+      , serial = "012001034233"
+      , issued = Day { getDay = 58737 }
+      , expires = Day { getDay = 59833 }
+      , expired = False
+      }
+  , License
+      { feature = "Logging Service"
+      , description = "Device Logging Service"
+      , serial = "012001034233"
+      , issued = Day { getDay = 58983 }
+      , expires = Day { getDay = 58997 }
+      , expired = True
+      }
+  ]
